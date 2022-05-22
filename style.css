@@ -1,0 +1,69 @@
+.hero {
+  min-height: 350px;
+  width: 100%;
+  overflow: hidden;
+  background: url(https://miro.medium.com/max/3600/1*cLQUX8jM2bMdwMcV2yXWYA.jpeg);
+  background-size: cover;
+}
+body {
+  margin: 0px;
+  color: #585e62;
+  font-family: Arial;
+}
+h1 {
+  padding: 10px;
+  margin: 20px 30px 5px 30px;
+  font-size: 40px;
+}
+h2 {
+  padding: 10px;
+  margin: 0px 30px;
+  font-size: 25px;
+}
+p {
+  padding: 10px;
+  margin: 0px 30px;
+  font-size: 15px;
+}
+a {
+  color: #4466ff;
+  text-decoration: none;
+}
+.overlay_flight_traveldil {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay_flight_traveldil:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup_flight_travlDil {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+.popup_flight_travlDil .close_flight_travelDl {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup_flight_travlDil .content_flightht_travel_dil {
+  max-height: 30%;
+  overflow: auto;
+}
